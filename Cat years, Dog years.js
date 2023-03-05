@@ -1,5 +1,5 @@
 
- 
+ /* 
 var humanYearsCatYearsDogYears = function(humanYears) {
    var catYears = 0;
    var dogYears = 0;
@@ -29,7 +29,7 @@ if (humanYears >= 1){
 return [humanYears,catYears,dogYears];
 }
 
-
+*/
 
 var humanYearsCatYearsDogYears = function(humanYears) {
    var catYears = 0;
