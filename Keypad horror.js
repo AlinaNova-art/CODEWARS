@@ -25,4 +25,27 @@ function computerToPhone(numbers) {
         }
     }
     return newstr;
-} 
+}
+
+/*function computerToPhone(numbers) {
+    var newstr = "";
+    var map = {
+        7: 1,
+        8: 2,
+        9: 3,
+        4: 4,
+        5: 5,
+        6: 6,
+        1: 7,
+        2: 8,
+        3: 9,
+        0: 0,
+    }
+
+    for (let i = 0; i < numbers.length; i++) {
+        newstr = newstr + map[numbers[i]];
+    }
+    return newstr;
+}
+*/
+
