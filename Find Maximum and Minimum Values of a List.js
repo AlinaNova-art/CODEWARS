@@ -6,19 +6,34 @@ var min = function (list) {
         if (list[i] < min) {
             min = list[i];
         }
-       
+
     }
-   return min;
+    return min;
 }
 
 
-    var max = function (list) {
-        var max = list[0];
+var max = function (list) {
+    var max = list[0];
 
-        for (let i = 0; i < list.length; i++) {
-            if (list[i] > max) {
-                max = list[i];
-            } 
+    for (let i = 0; i < list.length; i++) {
+        if (list[i] > max) {
+            max = list[i];
         }
-      return max;
     }
+    return max;
+}
+
+/*String.prototype.toAlternatingCase = function () {
+    return this.split("").map(changeCase).join("");
+}
+
+function changeCase(s) {
+    if (s.toLowerCase == s) {
+        return s.toUpperCase;
+    }
+    else return s.toLpperCase;
+}
+
+
+
+*/
