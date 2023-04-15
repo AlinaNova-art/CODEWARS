@@ -41,7 +41,6 @@ function capitalize(s, arr) {
     return newstr;
 };
 
-ALINA ART, [05.04.2023 18:25]
 function capitalize(s, arr) {
     var newstr = "";
 
@@ -59,7 +58,7 @@ function capitalize(s, arr) {
     return newstr;
 };
 
-ALINA ART, [05.04.2023 18:36]
+
 function capitalize(s, arr) {
     var newstr = "";
 
